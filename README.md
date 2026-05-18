@@ -18,9 +18,10 @@ using Attention-Guided Graph Representation Learning**
 
 ## 📰 News
 
+- **[2026/05/04]** First code files has been uploaded
 - **[2026/05/07]** Full scripts coming soon.
 - **[2026/05/04]** Accepted by *Endocrine Pathology* 🎉
-
+  
 ## 📖 Abstract
 
 Pituitary neuroendocrine tumors (PitNETs) are common sellar neoplasms and represent a major component of routine pituitary pathology. In the 2022 World Health Organization (WHO) Classification, transcription factor-defined lineage assignment is central to diagnosis. However, lineage-related morphologic information on routine hematoxylin and eosin (H&E)-stained whole-slide images (WSIs) has not been systematically characterized. We developed an attention-guided graph neural network to predict PitNET lineage directly from H&E-stained WSIs and to identify regions prioritized for classification. Consecutive surgically PitNETs from Beijing Tiantan Hospital (2021-2025) were included. In the internal hold-out set, the five-fold cross-validation models achieved a mean F1-score of **92.78%** and a mean balanced accuracy of **94.84%**. In a temporally independent validation cohort, the final model achieved an F1-score of **87.64%** and a balanced accuracy of **89.48%**. Performance varied across lineages and histomorphologic subtypes, and the predominant error pattern was misassignment of PIT-1 and T-PIT tumors to SF-1. Attention maps predominantly highlighted tumor-rich regions. Quantitative cell-level morphometry supported lineage-associated patterns, including larger cell and nuclear size in PIT-1 tumors, more elongated nuclei in SF-1 tumors, and higher cellular density with reduced intercellular spacing in T-PIT tumors. In six cases with multiple synchronous PitNETs of distinct lineages, patch-level prediction maps corresponded closely to transcription factor immunohistochemistry. In a small exploratory subset with available DNA methylation data, methylation-based classification was more concordant with model predictions than with routine clinical diagnosis. These findings indicate that routine H&E-stained WSIs contain learnable morphologic information related to PitNET lineage and that attention-guided spatial modeling provides an interpretable framework for characterizing lineage-associated patterns in PitNETs.
@@ -45,7 +46,7 @@ If you find this work useful, please cite our paper:
 
 ## 📧 Contact
 
-For questions, please contact [chenwang020916@gmail.com](mailto:chenwang020916@gmail.com).
+For questions, please contact [hao.jie@imicams.ac.cn](mailto:hao.jie@imicams.ac.cn) and [chenwang020916@gmail.com](mailto:chenwang020916@gmail.com).
 
 ## 📄 License
 
