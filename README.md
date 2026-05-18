@@ -20,7 +20,7 @@ using Attention-Guided Graph Representation Learning**
 
 - **[2026/05/04]** First code files has been uploaded
 - **[2026/05/07]** Full scripts coming soon.
-- **[2026/05/04]** Accepted by *Endocrine Pathology* 🎉
+- **[2026/05/04]** Accepted by *Endocrine Pathology*
   
 ## 📖 Abstract
 
